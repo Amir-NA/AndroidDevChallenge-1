@@ -42,7 +42,8 @@ The app will be an Android app that supports phones and tablets, but it will be 
  
 One of the major challenges of this app is to communicate with the car to fetch the data from engine computer using an OBD2 adapter. I already have experience working on similar Android apps on the Google Play Store with more than 100K installs and 50K active users. So, I already have a functional Android app and I will send a demo video of it with my final submission. I also have created the main chart component for this project. The major parts that are remaining are as follows:
  
- #### December 2019
+ #### December 2019:
+ 
 - UI/UX Design: The app will roughly have 4 screens. I will try to use [Google Materiel Design](https://material.io/design/) as well as [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Patterns for machine learning-powered features](https://material.io/collections/machine-learning/).
 
 #### January 2020:
@@ -61,10 +62,10 @@ One of the major challenges of this app is to communicate with the car to fetch 
  
    - Hosting the models: I will host the models on Firebase. When users add a new car, if the model for that car is available, the app will download that model. Besides, at any time, if I upload a new TensorFlow Lite model, the app will download the new model and start using it when the app restarts.
  
-#### February 2020 :
-- Bootcamp at Google: By this time I have the design, a mockup, and the model. 
+#### February 2020:
+- Bootcamp at Google: By this time, I have the design, a mockup, and the model. 
 
-#### March & April 2020 :
+#### March & April 2020:
 
 - Backend: Because the data are anonymous and there will be user login for now, all the backend code are relating to AI, which I have already explained.
 
@@ -73,12 +74,10 @@ One of the major challenges of this app is to communicate with the car to fetch 
 
 - As you can see these steps will roughly take 7 weeks. As I will use the remaining time to further improve the app, or improve the models, or adding new models.
 
-#### May 2020 :
+#### May 2020:
 
-- Release: Mostly to prepare the store listing, including the app icons,  the screenshots, the descriptions and the rest.
+- Release: Mostly to prepare the store listing, including the app icons, the screenshots, the descriptions and the rest.
 
- 
- 
  
 ### Google’s help
  
