@@ -42,6 +42,11 @@ The app will be an Android app that supports phones and tablets, but it will be 
  
 One of the major challenges of this app is to communicate with the car to fetch the data from engine computer using an OBD2 adapter. I already have experience working on similar Android apps on the Google Play Store with more than 100K installs and 50K active users. So, I already have a functional Android app and I will send a demo video of it with my final submission. I also have created the main chart component for this project. The major parts that are remaining are as follows:
  
+ #### December 2019
+- UI/UX Design: The app will roughly have 4 screens. I will try to use [Google Materiel Design](https://material.io/design/) as well as [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Patterns for machine learning-powered features](https://material.io/collections/machine-learning/).
+
+#### January 2020:
+
 - AI: This will be the biggest part of the app. This will take 4 weeks. I will use a [TensorFlow based solutions for mobiles from Google](https://www.tensorflow.org/lite). I can break down this step into three major parts:
  
    - Dataset Preparation: when the app connects to the car, it starts to fetch all the available parameters from the car's engine. The frequency of this operation is depending on the OBD2 interface and the protocol that car supports. Based on my past experience, the minimum speed is 4 data points per second and the maximum speed is 60 data points per second. Depending on the user's permission, the app may include more information such as temperature, humidity, wind direction, car moving direction, city, country, road include grade. The app will record these data on text files and sync it to Firebase Storage at the appropriate time.
@@ -56,16 +61,24 @@ One of the major challenges of this app is to communicate with the car to fetch 
  
    - Hosting the models: I will host the models on Firebase. When users add a new car, if the model for that car is available, the app will download that model. Besides, at any time, if I upload a new TensorFlow Lite model, the app will download the new model and start using it when the app restarts.
  
-- UI/UX Design: The app will roughly have 4 screens. I will try to use [Google Materiel Design](https://material.io/design/) as well as [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Patterns for machine learning-powered features](https://material.io/collections/machine-learning/). This should take 2 days.
- 
-- Mobile Apps: I will use Kotlin for this project. As I mentioned before I already have implemented the parts that communicate with the car. I also implemented the chart. I need to add screens to manage the car profiles and show real time data. This will take 3 weeks.
-<p align="center"><img height="600px" src="img/Screenshot_20191130-160731.jpg" alt=""></p>
+#### February 2020 :
+- Bootcamp at Google: By this time I have the design, a mockup, and the model. 
+
+#### March & April 2020 :
 
 - Backend: Because the data are anonymous and there will be user login for now, all the backend code are relating to AI, which I have already explained.
+
+- Mobile Apps: I will use Kotlin for this project. As I mentioned before I already have implemented the parts that communicate with the car. I also implemented the chart. I need to add screens to manage the car profiles and show real time data. This will take 3 to 5 weeks.
+<p align="center"><img height="600px" src="img/Screenshot_20191130-160731.jpg" alt=""></p>
+
+- As you can see these steps will roughly take 7 weeks. As I will use the remaining time to further improve the app, or improve the models, or adding new models.
+
+#### May 2020 :
+
+- Release: Mostly to prepare the store listing, including the app icons,  the screenshots, the descriptions and the rest.
+
  
-- Release: Mostly to prepare the store listing, including the app icons,  the screenshots, the descriptions and the rest. It will take 2 days.
  
-As you can see these steps will roughly take 7 weeks. As I will use the remaining time to further improve the app, or improve the models, or adding new models.
  
 ### Google’s help
  
